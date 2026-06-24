@@ -2,6 +2,129 @@
 
 # v6.0.5
 
+# v7.0.6+rev3
+## (2026-06-23)
+
+
+<details>
+<summary> Update contracts to 9fe86f23e02c5d438a96ab3209239dcb5df4dc5b [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.144
+> ### (2026-05-19)
+> 
+> * hw.device-type/beaglebone-ai64: Add the beaglebone-ai-64 alias to align with its device repo definition [Thodoris Greasidis]
+> 
+
+</details>
+
+# v7.0.6+rev2
+## (2026-06-10)
+
+* unpin flowzone, track @master [Kyle Harding]
+
+# v7.0.6+rev1
+## (2026-05-25)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 1df9bbe8d72fff7b71c71151d74dd64094971b30 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.39.35
+> ### (2026-05-16)
+> 
+> * build/barys: Add Wrynose build support [Alexandru Costache]
+> 
+
+</details>
+
+# v7.0.6
+## (2026-05-25)
+
+
+<details>
+<summary> Update layers/meta-balena to 79cfd47b693b7b2109db29d78b6d0ec516ae5f94 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.0.6
+> ### (2026-05-25)
+> 
+> * wpa_supplicant: enable OWE networks [Michal Toman]
+> 
+> ## meta-balena-7.0.5
+> ### (2026-05-21)
+> 
+> * image-balena: include size of boot directory in HUP check [Alex Gonzalez]
+> 
+> ## meta-balena-7.0.4
+> ### (2026-05-20)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v17.8.2 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-17.8.2
+>> #### (2026-05-19)
+>> 
+>> * Pin back to Node 22 / Alpine 3.22 [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-17.8.1
+>> #### (2026-05-13)
+>> 
+>> * Update systeminformation to v5.31.6 [SECURITY] [balena-renovate[bot]]
+>> 
+>> ### balena-supervisor-17.8.0
+>> #### (2026-05-01)
+>> 
+>> * Add a `PATCH /v2/device/tags` endpoint to tell the supervisor device tags to report [Pagan Gazzard]
+>> 
+>> ### balena-supervisor-17.7.5
+>> #### (Invalid date)
+>> 
+>> * Trim whitespaces around dtparam input values [Christina Ying Wang]
+>> * Fix dtparam parsing for comma-separated values [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-17.7.4
+>> #### (2026-04-29)
+>> 
+>> * Fix the network connectivity check [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-17.7.3
+>> #### (2026-04-20)
+>> 
+>> * Fix error propagation is fsUtils.touch [Pagan Gazzard]
+>> * Convert code to async/await [Pagan Gazzard]
+>> 
+>> ### balena-supervisor-17.7.2
+>> #### (2026-04-14)
+>> 
+>> * Firewall: avoid `exports.` to improve type-checking [Pagan Gazzard]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-7.0.3
+> ### (2026-05-13)
+> 
+> * plymouth: start after udev settle [Michal Toman]
+> 
+> ## meta-balena-7.0.2
+> ### (2026-05-11)
+> 
+> * kernel-balena: address CVE-2026-43284 [Alex Gonzalez]
+> 
+
+</details>
+
+# v7.0.1+rev2
+## (2026-05-16)
+
+* Update balena-os/github-workflows to 25e5b0d2d7bdd26b714368c326c939f5e5692d89 [balena-renovate[bot]]
+
+# v7.0.1+rev1
+## (2026-05-13)
+
+* Update to newer revision for iotdin-imx8p [Valentin Raevsky]
+
 # v7.0.1
 ## (2026-05-10)
 
