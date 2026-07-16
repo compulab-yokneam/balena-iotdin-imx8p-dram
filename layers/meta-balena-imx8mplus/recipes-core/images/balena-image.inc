@@ -25,3 +25,8 @@ IMAGE_INSTALL:remove = "jailhouse"
 
 CORE_IMAGE_EXTRA_INSTALL:remove = " gpsd gps-utils connman wvdial ppp modemmanager "
 IMAGE_ROOTFS_SIZE = "487424"
+
+BALENA_BOOT_SIZE:iotdin-imx8p-d1d8 = "40960"
+BALENA_STATE_SIZE:iotdin-imx8p-d1d8 = "20480"
+BALENA_BOOT_SIZE:iotdin-imx8p = "40960"
+BALENA_STATE_SIZE:iotdin-imx8p = "20480"
