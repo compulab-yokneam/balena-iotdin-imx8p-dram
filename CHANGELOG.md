@@ -2,6 +2,11 @@
 
 # v6.0.5
 
+# v7.5.1+rev2
+## (2026-07-23)
+
+* Update to the latest available Linux kernel version released by CompuLab. [Valentin Raevsky]
+
 # v7.5.1+rev1
 ## (2026-07-16)
 
